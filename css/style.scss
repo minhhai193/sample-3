@@ -1,0 +1,52 @@
+$font-family: 'Montserrat', sans-serif;
+$font-title: 'Baloo Bhai 2', cursive;
+$color: #6c9894;
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font: 14px $font-family;
+  margin: 0;
+  padding: 0;
+  color: #727272;
+}
+
+.wrapper-common {
+  width: 90%;
+  max-width: 1172px;
+  margin: 0 auto;
+}
+
+.row-common {
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
+li{
+  list-style-type: none
+}
+/* @media */
+
+// Tablet
+@media screen and (max-width: 1023px) {
+  html,
+  body {
+    font-size: 13px;
+  }
+  .wrapper-common {
+    width: 90%;
+  }
+}
+
+// SP
+@media screen and (max-width: 767px) {
+  html,
+  body {
+    font-size: 12px;
+  }
+}
